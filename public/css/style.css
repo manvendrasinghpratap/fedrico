@@ -1,0 +1,41 @@
+.width460{
+    width: 90% !important;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 400px;
+    transform: -webkit-translate(-50%,-50%);
+    transform: -moz-translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+
+ .signinpage {
+	   /*background: url('../images/bg/4.jpg')  !important;
+        background-size: 100% !important;*/
+background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#signin-page {
+    background: url(../images/bg/signin.jpg) no-repeat top center !important;
+    background-size: cover !important;
+    height: 100% !important;
+}
+#error-page-content{
+	color:white !important;
+}
+.portlet > .portlet-header {
+  margin-bottom: 15px;
+  background: #ffffff;
+  border-bottom: 0px solid #ffff !important;
+}
+.dataTables_filter{
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+.form-control-select{
+    width: 100% !important;
+    height: 38px !important;
+}
